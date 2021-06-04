@@ -1,0 +1,32 @@
+Process started
+
+Generate cloud: 0 0 2 2 100 -- successfuly.
+
+Starting the creation of the distance matrix -- successfully.
+Time: 0.004.
+
+Starting the spanning tree algorithm -- successfully.
+Time: 1.889.
+
+Starting the creation of the binary matrix (delta = 0.7) -- successfully.
+Time: 0.001.
+
+Starting the wave algorithm -- successfully.
+Time: 0.015.
+
+Starting the wave algorithm -- successfully.
+Time: 0.147.
+
+Entered command that could not be recognized.
+
+Starting the creation of the dbbinary matrix (delta = 0.7, (number of neigh&*oufffrs) = 3 -- successfully.
+Time: 0.003.
+
+Entered command that could not be recognized.
+
+Starting the wave algorithm -- successfully.
+Time: 0.12.
+
+Starting the k means algorithm, k=3 -- successfully.
+Time: 0.162.
+
