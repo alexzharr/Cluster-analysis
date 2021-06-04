@@ -1,0 +1,11 @@
+set term gif animate delay 20 background "#ffeedf"
+set output "D:/gnuplot/animations/kmeans_algorithm.gif"
+set xrange[-5:5]
+set yrange[-5:5]
+set size square
+set palette defined (0 "red", 1 "orange", 2 "yellow", 3 "green", 4 "blue", 5 "purple")
+set title "Kmeans-algorithm"
+do for [i=0:10]{
+	plot 'D:/datafiles/KMPoints/KMPoints_'.i.'.txt' w p pt 7 ps 0.5 palette, \
+	'D:/datafiles/KMMus/KMMus_'.i.'.txt' w p pt 7 ps 1 lc rgb "black" 
+}

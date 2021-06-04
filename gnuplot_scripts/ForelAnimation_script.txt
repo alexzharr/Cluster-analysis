@@ -1,0 +1,11 @@
+set term gif animate delay 30 background "#ffeedf"
+set output "D:/gnuplot/animations/forel_algorithm.gif"
+set xrange[-7:7]
+set yrange[-7:7]
+set size square
+set palette defined (0 "grey", 1 "blue", 2 "green", 3 "black")
+set title "FOREL-algorithm"
+do for [i=1:87]{
+	plot 'D:/datafiles/FCircles/FCircles_'.i.'.txt' using 1:2:3 with circles lc rgb "black" title "Turtles", \
+	'D:/datafiles/FPoints/FPoints_'.i.'.txt' w p pt 7 ps 1 palette title "Centers"
+}

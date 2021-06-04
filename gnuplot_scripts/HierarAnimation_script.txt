@@ -1,0 +1,10 @@
+set term gif animate delay 20 background "#ffeedf"
+set output "D:/gnuplot/animations/hierar_algorithm.gif"
+set xrange[-3:3]
+set yrange[-3:3]
+set size square
+set title "Hierarchical algorithm"
+do for [i=0:48]{
+	plot 'D:/datafiles/HPoints/HPoints_'.i.'.txt' w p pt 7 ps 0.5 lc rgb "black" title "Points", \
+	'D:/datafiles/HEdges/HEdges_'.i.'.txt' w l lc rgb "black" title "Edges"
+}

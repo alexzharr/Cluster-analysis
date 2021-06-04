@@ -1,0 +1,17 @@
+set size square
+set xrange[-5:5]
+set yrange[-5:5]
+
+set style line 1 \
+	linecolor rgb "red" pointtype 7 pointsize 1.5
+set style line 2 \
+	linecolor rgb "orange" pointtype 7 pointsize 1.5
+set style line 3 \
+	linecolor rgb "grey" pointtype 7 pointsize 1.5
+set style line 4 \
+	linecolor rgb "black" pointtype 7 pointsize 0.1
+
+plot 'D:\datafiles\Kernal.txt' w p linestyle 1, \
+'D:\datafiles\Periphery.txt' w p linestyle 2, \
+'D:\datafiles\Dust.txt' w p linestyle 3, \
+'D:\datafiles\DBEdges.txt' w l linestyle 4

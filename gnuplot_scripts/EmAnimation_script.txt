@@ -1,0 +1,11 @@
+set term gif animate delay 20 background "#ffeedf"
+set output "D:/gnuplot/animations/em_algorithm.gif"
+set xrange[-6:6]
+set yrange[-6:6]
+set size square
+set palette defined (0 "red", 1 "orange", 2 "yellow", 3 "green", 4 "blue", 5 "purple")
+set title "EM-algorithm"
+do for [i=0:29]{
+	plot 'D:/datafiles/EMEllipses/EMEllipses_'.i.'.txt' using 1:2:3:4:5 with ellipses lc rgb "black" title "ellipses", \
+	'D:/datafiles/EMPoints/EMPoints_'.i.'.txt' w p pt 7 ps 0.5 palette
+}

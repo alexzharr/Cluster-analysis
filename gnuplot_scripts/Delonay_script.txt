@@ -1,0 +1,11 @@
+set size square
+set xrange[-5:5]
+set yrange[-5:5]
+
+set style line 1 \
+	linecolor rgb "red" pointtype 7 pointsize 1.5
+set style line 1 \
+	linecolor rgb "blue" pointtype 7 pointsize 1.5
+
+plot 'D:\datafiles\Delonay.txt' w l linestyle 1, \
+'D:\datafiles\Field.txt' w p linestyle 1

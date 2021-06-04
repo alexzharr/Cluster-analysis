@@ -1,0 +1,5 @@
+set size square
+set xrange[-5:5]
+set yrange[-5:5]
+set palette defined (0 "red", 1 "orange", 2 "yellow", 3 "black", 4 "blue", 5 "purple")
+plot 'D:\datafiles\Field.txt' w p pt 7 ps 1.5 palette

@@ -1,0 +1,5 @@
+set size square
+set xrange[-5:5]
+set yrange[-5:5]
+set title "Hierarchical algorithm"
+plot 'D:\datafiles\HierEdges.txt' w l lc rgb "black" title "Edges"

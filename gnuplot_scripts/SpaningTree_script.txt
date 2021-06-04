@@ -1,0 +1,9 @@
+set size square
+set xrange[-5:5]
+set yrange[-5:5]
+set style line 1 \
+	linecolor rgb "black" \
+	linetype 1 linewidth 2 \
+	pointtype 7 pointsize 1.5
+
+plot 'D:\datafiles\SpaningTree.txt' with linespoints linestyle 1

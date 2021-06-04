@@ -1,0 +1,8 @@
+set size square
+set xrange[-5:5]
+set yrange[-5:5]
+
+set style line 1 \
+	linecolor rgb "black" pointtype 7 pointsize 1.5
+
+plot 'D:\datafiles\WaveEdges.txt' w l linestyle 1
