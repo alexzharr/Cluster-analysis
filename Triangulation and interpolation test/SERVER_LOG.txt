@@ -1,0 +1,21 @@
+Process started
+
+Generate cloud: 0 0 2 4 50 -- successfuly.
+
+Starting the creation of the distance matrix -- successfully.
+Time: 0.002.
+
+Starting the Dealonay triangulation algorithm -- successfully.
+Time: 0.175.
+
+Printing field to a file -- successfully.
+
+Starting the interpolation algorithm -- successfully.
+Time: 0.804.
+
+Starting the interpolation algorithm -- successfully.
+Time: 0.629.
+
+Starting the interpolation algorithm -- successfully.
+Time: 0.575.
+
