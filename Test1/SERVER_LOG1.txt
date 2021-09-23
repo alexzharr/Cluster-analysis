@@ -1,0 +1,57 @@
+Process started
+
+Generate cloud: 0 0 2 4 100 -- successfuly.
+
+Starting the creation of the distance matrix -- successfully.
+Time: 0.004.
+
+Starting the spanning tree algorithm -- successfully.
+Time: 1.773.
+
+Starting the creation of the binary matrix (delta = 0.7) -- successfully.
+Time: 0.001.
+
+Starting the wave algorithm -- successfully.
+Time: 0.013.
+
+Starting the wave algorithm -- successfully.
+Time: 0.059.
+
+Displaying the wave algorithm -- successfully.
+Time: 0.007.
+
+Starting the creation of the dbbinary matrix (delta = 0.5, (number of neighbors) = 3 -- successfully.
+Time: 0.003.
+
+Starting the DBSCAN algorithm, delta=1, k=1 -- successfully.
+Time: 0.04.
+
+Displaying the DBSCAN algorithm -- successfully.
+Time: 0.007.
+
+Entered command that could not be recognized.
+
+Starting the k means algorithm, k=3 -- successfully.
+Time: 0.2.
+
+Starting the spanning tree histogram algorithm -- successfully.
+Time: 0.007.
+
+Displaying the kkm algorithm -- successfully.
+Time: 0.007.
+
+Starting the EM algorithm, k=1 -- successfully.
+Time: 0.321.
+
+Starting the hierarchical algorithm -- successfully.
+Time: 1.098.
+
+Displaying the hierarchical algorithm -- successfully.
+Time: 0.007.
+
+Starting the forel algorithm, r = 0.4, c = 2
+ -- successfully.
+Time: 0.416.
+
+The EXIT command was called -- successfully.
+
